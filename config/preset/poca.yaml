@@ -1,0 +1,45 @@
+env:
+  name: PushBlockCollab
+  version: 0.1.0
+  path: envs/PushBlockCollab/build.x86_64
+setting:
+  width: 80
+  height: 80
+  time_scale: 1
+param:
+  n_episode: 100
+  max_time_step: 15000000
+  learning_rate: 0.0003
+  gamma: 0.95
+  epsilon: 0.2
+  batch_size: 1024
+log:
+  path:
+
+
+
+# behaviors:
+#   PushBlockCollab:
+#     trainer_type: poca
+#     hyperparameters:
+#       batch_size: 1024
+#       buffer_size: 10240
+#       learning_rate: 0.0003
+#       beta: 0.01
+#       epsilon: 0.2
+#       lambd: 0.95
+#       num_epoch: 3
+#       learning_rate_schedule: constant
+#     network_settings:
+#       normalize: false
+#       hidden_units: 256
+#       num_layers: 2
+#       vis_encode_type: simple
+#     reward_signals:
+#       extrinsic:
+#         gamma: 0.99
+#         strength: 1.0
+#     keep_checkpoints: 5
+#     max_steps: 15000000
+#     time_horizon: 64
+#     summary_freq: 60000

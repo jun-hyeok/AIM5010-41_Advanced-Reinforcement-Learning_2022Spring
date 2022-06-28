@@ -1,0 +1,10 @@
+env: PushBlockCollab
+file_name: /home/junhyeok/Documents/AIM5010-41_Advanced-Reinforcement-Learning_2022Spring/envs/PushBlockCollab/build
+num_workers:  0
+stop_iters: 9999
+stop_timesteps: 10000000
+stop_reward: 9999.0
+horizon: 3000
+framework: tf2
+from_checkpoint: null
+as_test: false

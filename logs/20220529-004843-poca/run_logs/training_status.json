@@ -1,0 +1,65 @@
+{
+    "PushBlockCollab": {
+        "checkpoints": [
+            {
+                "steps": 13499874,
+                "file_path": "results/20220529-004843-poca/PushBlockCollab/PushBlockCollab-13499874.onnx",
+                "reward": 0.0,
+                "creation_time": 1653847134.0967865,
+                "auxillary_file_paths": [
+                    "results/20220529-004843-poca/PushBlockCollab/PushBlockCollab-13499874.pt"
+                ]
+            },
+            {
+                "steps": 13999203,
+                "file_path": "results/20220529-004843-poca/PushBlockCollab/PushBlockCollab-13999203.onnx",
+                "reward": 0.0,
+                "creation_time": 1653850126.7416952,
+                "auxillary_file_paths": [
+                    "results/20220529-004843-poca/PushBlockCollab/PushBlockCollab-13999203.pt"
+                ]
+            },
+            {
+                "steps": 14499710,
+                "file_path": "results/20220529-004843-poca/PushBlockCollab/PushBlockCollab-14499710.onnx",
+                "reward": 0.0,
+                "creation_time": 1653853135.459218,
+                "auxillary_file_paths": [
+                    "results/20220529-004843-poca/PushBlockCollab/PushBlockCollab-14499710.pt"
+                ]
+            },
+            {
+                "steps": 14999868,
+                "file_path": "results/20220529-004843-poca/PushBlockCollab/PushBlockCollab-14999868.onnx",
+                "reward": 0.0,
+                "creation_time": 1653856171.2420313,
+                "auxillary_file_paths": [
+                    "results/20220529-004843-poca/PushBlockCollab/PushBlockCollab-14999868.pt"
+                ]
+            },
+            {
+                "steps": 15000753,
+                "file_path": "results/20220529-004843-poca/PushBlockCollab/PushBlockCollab-15000753.onnx",
+                "reward": 0.0,
+                "creation_time": 1653856171.8988612,
+                "auxillary_file_paths": [
+                    "results/20220529-004843-poca/PushBlockCollab/PushBlockCollab-15000753.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15000753,
+            "file_path": "results/20220529-004843-poca/PushBlockCollab.onnx",
+            "reward": 0.0,
+            "creation_time": 1653856171.8988612,
+            "auxillary_file_paths": [
+                "results/20220529-004843-poca/PushBlockCollab/PushBlockCollab-15000753.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.1",
+        "torch_version": "1.8.1+cu102"
+    }
+}
